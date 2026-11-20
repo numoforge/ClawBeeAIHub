@@ -1,0 +1,27 @@
+# ClawBee CI — runs on push to main and on pull requests.
+# Pin actions to full SHAs at publish time; Dependabot (github-actions
+# ecosystem) updates them. Least-privilege token by default.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Check directory data validates
+        run: python3 -m clawbee.cli status
