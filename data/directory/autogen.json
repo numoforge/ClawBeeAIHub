@@ -1,0 +1,41 @@
+{
+  "id": "autogen",
+  "name": "AutoGen",
+  "description": "Conversational / group-chat multi-agent framework (historical). ARCHIVED \u2014 do not use for new builds.",
+  "repo": {
+    "owner/repo": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen"
+  },
+  "license": {
+    "spdx": "MIT",
+    "osi_approved": true
+  },
+  "status": "archived",
+  "category": "orchestration",
+  "framework": "microsoft/autogen",
+  "languages": [
+    "Python"
+  ],
+  "features": [
+    "group-chat (historical)"
+  ],
+  "install": "do not install \u2014 archived",
+  "maintenance": {
+    "last_release": "0.7.5",
+    "last_release_date": "2025-09-30",
+    "stars_as_of": "~61.8k (frozen)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "ARCHIVED: README states no bug fixes, security fixes, new features, or support. Migrate to Microsoft Agent Framework.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "historical",
+    "mcp": false,
+    "a2a": false
+  },
+  "sources": [
+    "https://github.com/microsoft/autogen"
+  ]
+}

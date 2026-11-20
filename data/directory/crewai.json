@@ -1,0 +1,45 @@
+{
+  "id": "crewai",
+  "name": "CrewAI",
+  "description": "Role-based multi-agent orchestration: agents with role/goal/backstory collaborate in Crews; Flows for deterministic control.",
+  "repo": {
+    "owner/repo": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI"
+  },
+  "license": {
+    "spdx": "MIT",
+    "osi_approved": true
+  },
+  "status": "active",
+  "category": "orchestration",
+  "framework": "crewAIInc/crewAI",
+  "languages": [
+    "Python"
+  ],
+  "features": [
+    "role-based crews",
+    "hierarchical processes",
+    "Flows",
+    "MCP tools"
+  ],
+  "install": "pip install crewai",
+  "maintenance": {
+    "last_release": "1.15.43",
+    "last_release_date": "2026-11-19",
+    "stars_as_of": "~60.8k (2026-11-19)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "MIT; open-source framework sends anonymous telemetry \u2014 disable with OTEL_SDK_DISABLED=true.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic",
+    "mcp": true,
+    "a2a": true
+  },
+  "sources": [
+    "https://github.com/crewAIInc/crewAI",
+    "https://docs.crewai.com"
+  ]
+}

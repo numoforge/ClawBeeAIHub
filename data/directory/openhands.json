@@ -1,0 +1,45 @@
+{
+  "id": "openhands",
+  "name": "OpenHands",
+  "description": "Autonomous software-development agent: plans, writes, runs and debugs code inside a sandboxed Docker runtime.",
+  "repo": {
+    "owner/repo": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands"
+  },
+  "license": {
+    "spdx": "MIT",
+    "osi_approved": true
+  },
+  "status": "active",
+  "category": "coding-agent",
+  "framework": "OpenHands/OpenHands",
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "features": [
+    "coding-agent loop",
+    "sandboxed Docker runtime",
+    "Agent Canvas UI"
+  ],
+  "install": "see repo README (Docker)",
+  "maintenance": {
+    "last_release": "1.42.0",
+    "last_release_date": "2026-11-18",
+    "stars_as_of": "~93.9k (2026-11-18)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "MIT core; enterprise backend is PolyForm Free Trial \u2014 commercial tier holds SSO/RBAC/audit.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic",
+    "mcp": true,
+    "a2a": false
+  },
+  "sources": [
+    "https://github.com/OpenHands/OpenHands",
+    "https://openhands.dev"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "google-adk",
+  "name": "Google ADK",
+  "description": "Code-first agent framework: graph/dynamic/collaborative workflows, sessions/state/memory, MCP + A2A, built-in eval.",
+  "repo": {
+    "owner/repo": "google/adk-python",
+    "url": "https://github.com/google/adk-python"
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true
+  },
+  "status": "active",
+  "category": "orchestration",
+  "framework": "google/adk-python",
+  "languages": [
+    "Python",
+    "TypeScript",
+    "Go",
+    "Java",
+    "Kotlin"
+  ],
+  "features": [
+    "graph workflows",
+    "HITL RequestInput",
+    "MCP toolset",
+    "A2A stable",
+    "built-in eval"
+  ],
+  "install": "pip install google-adk",
+  "maintenance": {
+    "last_release": "2.15.0",
+    "last_release_date": "2026-11-19",
+    "stars_as_of": "~22.3k (2026-11-19)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "Apache-2.0; unverified CVE claim (6 CVEs in 2026) \u2014 check CVE records before adoption.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic, Gemini-optimised",
+    "mcp": true,
+    "a2a": true
+  },
+  "sources": [
+    "https://github.com/google/adk-python",
+    "https://adk.dev"
+  ]
+}

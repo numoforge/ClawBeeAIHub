@@ -1,0 +1,46 @@
+{
+  "id": "dify",
+  "name": "Dify",
+  "description": "Visual LLMOps platform for LLM apps, agent workflows, RAG chatbots. Licence bars multi-tenant service.",
+  "repo": {
+    "owner/repo": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify"
+  },
+  "license": {
+    "spdx": "Dify Open Source License (modified Apache-2.0)",
+    "osi_approved": false
+  },
+  "status": "active",
+  "category": "llmops-platform",
+  "framework": "langgenius/dify",
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "features": [
+    "visual workflows",
+    "RAG",
+    "prompt management",
+    "model management"
+  ],
+  "install": "Docker Compose (see repo)",
+  "maintenance": {
+    "last_release": "1.20.0",
+    "last_release_date": "2026-11-18",
+    "stars_as_of": "~162k (2026-11-18)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "Licence NOT OSI-approved: no multi-tenant service without commercial agreement; do not remove Dify logo/copyright.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic",
+    "mcp": true,
+    "a2a": false
+  },
+  "sources": [
+    "https://github.com/langgenius/dify",
+    "https://dify.ai"
+  ]
+}

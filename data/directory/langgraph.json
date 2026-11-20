@@ -1,0 +1,47 @@
+{
+  "id": "langgraph",
+  "name": "LangGraph",
+  "description": "Low-level orchestration runtime for long-running, stateful agents with durable checkpoints and human-in-the-loop interrupts.",
+  "repo": {
+    "owner/repo": "langchain-ai/langgraph",
+    "url": "https://github.com/langchain-ai/langgraph"
+  },
+  "license": {
+    "spdx": "MIT",
+    "osi_approved": true
+  },
+  "status": "active",
+  "category": "orchestration",
+  "framework": "langchain-ai/langgraph",
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "features": [
+    "graph orchestration",
+    "durable checkpoints",
+    "interrupt() HITL",
+    "Send fan-out",
+    "subgraphs"
+  ],
+  "install": "pip install langgraph",
+  "maintenance": {
+    "last_release": "1.2.24",
+    "last_release_date": "2026-11-20",
+    "stars_as_of": "~45.2k (2026-11-20)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "MIT library only; Agent Server is Elastic-2.0 \u2014 do not re-host it as a public service.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic",
+    "mcp": true,
+    "a2a": false
+  },
+  "sources": [
+    "https://github.com/langchain-ai/langgraph",
+    "https://docs.langchain.com"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "flowise",
+  "name": "Flowise",
+  "description": "Visual low-code chatflows / AgentFlow (historical). ARCHIVED / EOL \u2014 do not use.",
+  "repo": {
+    "owner/repo": "FlowiseAI/Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise"
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "osi_approved": true
+  },
+  "status": "eol",
+  "category": "low-code",
+  "framework": "FlowiseAI/Flowise",
+  "languages": [
+    "Node.js",
+    "TypeScript"
+  ],
+  "features": [
+    "visual chatflows (historical)"
+  ],
+  "install": "do not install \u2014 archived/EOL",
+  "maintenance": {
+    "last_release": "3.1.4",
+    "last_release_date": "2026-07-29",
+    "stars_as_of": "~55.6k",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "ARCHIVED 2026-08-13, EOL 2026-08-31. Reported exploited RCE from 2026-04 will never be patched.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "historical",
+    "mcp": false,
+    "a2a": false
+  },
+  "sources": [
+    "https://github.com/FlowiseAI/Flowise"
+  ]
+}

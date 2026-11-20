@@ -1,0 +1,45 @@
+{
+  "id": "microsoft-agent-framework",
+  "name": "Microsoft Agent Framework",
+  "description": "Microsoft enterprise agent SDK (AutoGen + Semantic Kernel successor): graph workflows, 5 prebuilt patterns, MCP + A2A, HITL.",
+  "repo": {
+    "owner/repo": "microsoft/agent-framework",
+    "url": "https://github.com/microsoft/agent-framework"
+  },
+  "license": {
+    "spdx": "MIT",
+    "osi_approved": true
+  },
+  "status": "active",
+  "category": "orchestration",
+  "framework": "microsoft/agent-framework",
+  "languages": [
+    "Python",
+    ".NET"
+  ],
+  "features": [
+    "graph workflows",
+    "sequential/concurrent/handoff/group-chat/Magentic",
+    "MCP client",
+    "checkpoints"
+  ],
+  "install": "pip install agent-framework",
+  "maintenance": {
+    "last_release": "1.25.0",
+    "last_release_date": "2026-11-07",
+    "stars_as_of": "~14.6k (2026-11-07)",
+    "checked_date": "2026-11-20"
+  },
+  "security": {
+    "assessment": "MIT; many Python packages still alpha/beta \u2014 pin versions.",
+    "sandbox_required": true
+  },
+  "compatibility": {
+    "models": "model-agnostic",
+    "mcp": true,
+    "a2a": true
+  },
+  "sources": [
+    "https://github.com/microsoft/agent-framework"
+  ]
+}
